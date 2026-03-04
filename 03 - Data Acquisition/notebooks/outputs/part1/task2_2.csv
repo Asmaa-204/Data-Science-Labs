@@ -1,0 +1,6 @@
+book_title,borrower_name,borrow_date,due_date,days_overdue,estimated_fine
+Cairo Trilogy,Ahmed Hassan,2023-12-11,2023-12-25,800,1600
+The Days,Ahmed Hassan,2023-12-14,2023-12-28,797,1594
+The Yacoubian Building,Fatima Ali,2023-12-26,2024-01-09,785,1570
+Woman at Point Zero,Ahmed Hassan,2024-01-20,2024-02-03,760,1520
+Cairo Trilogy,Ahmed Hassan,2024-01-28,2024-02-11,752,1504
