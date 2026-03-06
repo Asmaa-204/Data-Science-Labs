@@ -49,3 +49,19 @@
 2026-03-05 02:42:57,199 - GitHubAnalyzer - INFO - GET /repos/tensorflow/tensorflow - Status: 200
 2026-03-05 02:42:58,675 - GitHubAnalyzer - INFO - GET /repos/pytorch/pytorch - Status: 200
 2026-03-05 02:42:58,965 - GitHubAnalyzer - INFO - GET /repos/scikit-learn/scikit-learn - Status: 200
+2026-03-06 15:28:26,530 - __main__ - INFO - Attempt 1/3: GET https://api.github.com/repos/python/cpython
+2026-03-06 15:28:27,060 - __main__ - INFO - ✓ Success: https://api.github.com/repos/python/cpython
+2026-03-06 15:28:30,544 - GitHubAPI - INFO - GET /repos/pandas-dev/pandas - Status: 200
+2026-03-06 15:28:31,831 - GitHubAPI - INFO - GET /search/repositories - Status: 200
+2026-03-06 15:28:53,202 - __main__ - INFO - Fetching page 1...
+2026-03-06 15:28:55,459 - __main__ - INFO - Fetching page 2...
+2026-03-06 15:28:55,732 - __main__ - INFO - Done. No more pages
+2026-03-06 15:29:10,352 - GitHubAnalyzer - INFO - GET /repos/tensorflow/tensorflow - Status: 200
+2026-03-06 15:29:10,455 - GitHubAnalyzer - INFO - GET /repos/pytorch/pytorch - Status: 200
+2026-03-06 15:29:10,744 - GitHubAnalyzer - INFO - GET /repos/scikit-learn/scikit-learn - Status: 200
+2026-03-06 15:31:01,377 - GitHubAnalyzer - INFO - GET /repos/tensorflow/tensorflow - Status: 200
+2026-03-06 15:31:01,783 - GitHubAnalyzer - INFO - GET /repos/pytorch/pytorch - Status: 200
+2026-03-06 15:31:02,198 - GitHubAnalyzer - INFO - GET /repos/scikit-learn/scikit-learn - Status: 200
+2026-03-06 15:31:17,488 - GitHubAnalyzer - INFO - GET /repos/tensorflow/tensorflow - Status: 200
+2026-03-06 15:31:17,620 - GitHubAnalyzer - INFO - GET /repos/pytorch/pytorch - Status: 200
+2026-03-06 15:31:17,815 - GitHubAnalyzer - INFO - GET /repos/scikit-learn/scikit-learn - Status: 200

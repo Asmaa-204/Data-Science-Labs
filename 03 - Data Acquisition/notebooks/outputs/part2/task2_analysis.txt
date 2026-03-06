@@ -1,5 +1,5 @@
-Most used programming language: Jupyter Notebook
-Average stars per repository: 0.92
-Total forks across all repos: 14
-Most Recently Updated Repo: Inpaint-Me
-Oldest Repo: housing_prices_estimator
+Most used programming language: JavaScript
+Average stars per repository: 0.80
+Total forks across all repos: 2
+Most Recently Updated Repo: Data-Science-Labs
+Oldest Repo: Portfolio

@@ -1,0 +1,109 @@
+2026-03-06 14:28:01,737 - __main__ - INFO - Pipeline initialized
+2026-03-06 14:28:01,739 - __main__ - INFO - Collecting from database: library.db
+2026-03-06 14:28:01,741 - __main__ - ERROR - ✗ Database error: Execution failed on sql 'SELECT * FROM books WHERE rating > 4': no such column: rating
+2026-03-06 14:28:01,746 - __main__ - INFO - Collecting from API: https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 14:28:02,283 - __main__ - INFO - ✓ Collected API data from https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 14:28:02,288 - __main__ - INFO - Scraping: http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 14:28:03,106 - __main__ - INFO - ✓ Scraped data from http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 14:28:03,124 - __main__ - INFO - ✓ Data exported to exports/
+2026-03-06 14:28:03,125 - __main__ - INFO - Pipeline closed
+2026-03-06 14:59:39,019 - __main__ - INFO - Pipeline initialized
+2026-03-06 14:59:39,020 - __main__ - INFO - Collecting from database: library.db
+2026-03-06 14:59:39,021 - __main__ - ERROR - ✗ Database error: Execution failed on sql '
+SELECT 
+b.title,
+a.name AS author_name,
+COUNT(br.borrow_id) AS times_borrowed,
+FROM books b
+INNER JOIN authors a ON a.author_id = b.author_id
+LEFT JOIN borrowings br ON br.book_id = b.book_id
+GROUP BY b.book_id
+ORDER BY times_borrowed DESC
+': near "FROM": syntax error
+2026-03-06 15:00:50,809 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:00:50,810 - __main__ - INFO - Collecting from database: library.db
+2026-03-06 15:00:50,812 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 15:31:34,455 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:31:34,456 - __main__ - INFO - Collecting from database: library.db
+2026-03-06 15:31:34,456 - __main__ - ERROR - ✗ Database error: Execution failed on sql 'SELECT * FROM books WHERE rating > 4': no such table: books
+2026-03-06 15:31:34,460 - __main__ - INFO - Collecting from API: https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:31:34,976 - __main__ - INFO - ✓ Collected API data from https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:31:34,982 - __main__ - INFO - Scraping: http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:31:35,698 - __main__ - INFO - ✓ Scraped data from http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:31:35,712 - __main__ - INFO - ✓ Data exported to exports/
+2026-03-06 15:31:35,713 - __main__ - INFO - Pipeline closed
+2026-03-06 15:31:35,737 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:31:35,738 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 15:31:35,740 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 15:34:36,130 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:34:36,131 - __main__ - INFO - Collecting from database: library.db
+2026-03-06 15:34:36,131 - __main__ - ERROR - ✗ Database error: Execution failed on sql 'SELECT * FROM books WHERE rating > 4': no such table: books
+2026-03-06 15:34:36,136 - __main__ - INFO - Collecting from API: https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:34:36,638 - __main__ - INFO - ✓ Collected API data from https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:34:36,645 - __main__ - INFO - Scraping: http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:34:37,049 - __main__ - INFO - ✓ Scraped data from http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:34:37,071 - __main__ - INFO - ✓ Data exported to exports/
+2026-03-06 15:34:37,073 - __main__ - INFO - Pipeline closed
+2026-03-06 15:34:37,106 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:34:37,106 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 15:34:37,107 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 15:35:33,241 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:35:33,241 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 15:35:33,242 - __main__ - ERROR - ✗ Database error: Execution failed on sql 'SELECT * FROM books WHERE rating > 4': no such column: rating
+2026-03-06 15:35:33,256 - __main__ - INFO - Collecting from API: https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:35:33,771 - __main__ - INFO - ✓ Collected API data from https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:35:33,776 - __main__ - INFO - Scraping: http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:35:34,197 - __main__ - INFO - ✓ Scraped data from http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:35:34,214 - __main__ - INFO - ✓ Data exported to exports/
+2026-03-06 15:35:34,215 - __main__ - INFO - Pipeline closed
+2026-03-06 15:35:34,246 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:35:34,247 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 15:35:34,249 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 15:40:09,781 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:40:09,781 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 15:40:09,782 - __main__ - ERROR - ✗ Database error: Execution failed on sql 'SELECT * FROM books WHERE rating > 4': no such column: rating
+2026-03-06 15:40:09,786 - __main__ - INFO - Collecting from API: https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:40:10,178 - __main__ - INFO - ✓ Collected API data from https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 15:40:10,187 - __main__ - INFO - Scraping: http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:40:10,783 - __main__ - INFO - ✓ Scraped data from http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 15:40:10,795 - __main__ - INFO - ✓ Data exported to exports/
+2026-03-06 15:40:10,796 - __main__ - INFO - Pipeline closed
+2026-03-06 15:40:10,833 - __main__ - INFO - Pipeline initialized
+2026-03-06 15:40:10,834 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 15:40:10,838 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 16:31:08,262 - __main__ - INFO - Pipeline initialized
+2026-03-06 16:31:08,263 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 16:31:08,264 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 16:31:08,272 - __main__ - INFO - Collecting from API: https://api.github.com/search/repositories
+2026-03-06 16:31:09,747 - __main__ - INFO - ✓ Collected API data from https://api.github.com/search/repositories
+2026-03-06 16:32:41,842 - __main__ - INFO - Pipeline initialized
+2026-03-06 16:32:41,843 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 16:32:41,844 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 16:32:41,851 - __main__ - INFO - Collecting from API: https://api.github.com/search/repositories
+2026-03-06 16:32:43,405 - __main__ - INFO - ✓ Collected API data from https://api.github.com/search/repositories
+2026-03-06 16:34:13,162 - __main__ - INFO - Pipeline initialized
+2026-03-06 16:34:13,164 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 16:34:13,165 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 16:34:13,172 - __main__ - INFO - Collecting from API: https://api.github.com/search/repositories
+2026-03-06 16:34:14,552 - __main__ - INFO - ✓ Collected API data from https://api.github.com/search/repositories
+2026-03-06 16:37:34,909 - __main__ - INFO - Pipeline initialized
+2026-03-06 16:37:34,911 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 16:37:34,912 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 16:37:34,920 - __main__ - INFO - Collecting from API: https://api.github.com/search/repositories
+2026-03-06 16:37:38,935 - __main__ - INFO - ✓ Collected API data from https://api.github.com/search/repositories
+2026-03-06 16:54:23,629 - __main__ - INFO - Pipeline initialized
+2026-03-06 16:54:23,630 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 16:54:23,631 - __main__ - ERROR - ✗ Database error: Execution failed on sql 'SELECT * FROM books WHERE rating > 4': no such column: rating
+2026-03-06 16:54:23,639 - __main__ - INFO - Collecting from API: https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 16:54:24,111 - __main__ - INFO - ✓ Collected API data from https://api.github.com/repos/pandas-dev/pandas
+2026-03-06 16:54:24,120 - __main__ - INFO - Scraping: http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 16:54:24,774 - __main__ - INFO - ✓ Scraped data from http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html
+2026-03-06 16:54:24,790 - __main__ - INFO - ✓ Data exported to exports/
+2026-03-06 16:54:24,791 - __main__ - INFO - Pipeline closed
+2026-03-06 16:54:24,803 - __main__ - INFO - Pipeline initialized
+2026-03-06 16:54:24,806 - __main__ - INFO - Collecting from database: databases/library.db
+2026-03-06 16:54:24,812 - __main__ - INFO - ✓ Collected 10 records from database
+2026-03-06 16:54:24,821 - __main__ - INFO - Collecting from API: https://api.github.com/search/repositories
+2026-03-06 16:54:26,537 - __main__ - INFO - ✓ Collected API data from https://api.github.com/search/repositories
+2026-03-06 16:54:26,589 - __main__ - INFO - ✓ Data exported to outputs/part4/
+2026-03-06 16:54:26,590 - __main__ - INFO - Pipeline closed
